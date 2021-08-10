@@ -1,0 +1,62 @@
+
+/*-----------------------------------------------------------------------------------
+
+	Shortcodes: team.scss
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+	Team member Styles
+-----------------------------------------------------------------*/
+
+.team {
+    position: relative;
+
+    .team-image {
+        img {
+            border-radius: 1.5rem;
+        }
+    }
+
+    .team-members {
+        margin-top: -3rem;
+
+        .member {
+            margin-left: -1rem;
+        }
+    }
+
+    .team-details {
+
+        .team-skill {
+            font-size: 0.875rem;
+            color: #8d8d90;
+        }
+    
+        .team-name {
+            font-size: 1.875rem;
+            color:$secondary;
+            font-weight: 500;
+        }
+
+        p {
+            font-size: 1.0625rem;
+            color: $secondary;
+        }
+    
+        .team-rating {
+            i {
+                color: $theme-color;
+                font-size: 0.75rem;
+                padding-right: 0.3rem;
+            }
+        }
+
+        .sign-up-link {
+            color: #bdb4ce;
+            border-radius:1rem;
+            padding: 1rem 2rem;
+            font-size: 1rem;
+        }
+    }
+}

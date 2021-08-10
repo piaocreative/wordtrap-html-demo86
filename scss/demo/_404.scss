@@ -1,0 +1,79 @@
+/* ----------------------------------------------------------------
+
+	404.scss
+
+-----------------------------------------------------------------*/
+.error-404 {
+    position: relative;
+
+    img {
+        border-bottom-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+    }
+
+    .error-content {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        height: 100%;
+
+        .py-7 {
+            width: 30rem;
+        }
+
+        h4 {
+            color: #c6bdc0;
+            position: relative;
+            top: 10rem;
+        }
+    
+        h2 {
+            font-size: 16.25rem;
+            color: $white;
+        }
+    
+        p {
+            line-height: 2rem;
+        }
+    
+        a {
+            text-decoration: none;
+            font-size: 1.125rem;
+        }
+
+        @include media-breakpoint-down(sm) {
+            .py-7 {
+                width: 100%;
+            }
+
+            h2 {
+                font-size: 11.25rem;
+            }
+
+            h4 {
+                top: 7rem;
+                font-size: 1rem;
+            }
+        }
+    }
+
+    
+
+    // @include media-breakpoint-down(lg) {
+    //     h2 {
+    //         font-size: 15.25rem;
+    //     }
+    // }
+
+    // @include media-breakpoint-down(sm) {
+        
+    //     h2 {
+    //         font-size: 7.25rem;
+    //     }
+
+    //     p {
+    //         font-size: 1rem;
+    //     }
+    // }
+}

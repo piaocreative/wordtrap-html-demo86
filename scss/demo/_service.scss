@@ -1,0 +1,85 @@
+
+/* ----------------------------------------------------------------
+
+	Service.scss
+
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Service
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Add here styles for Service pages. Thanks!
+-----------------------------------------------------------------*/
+.service {
+	position: relative;
+	margin-bottom: 2.875rem;
+
+	.service-image {
+		position: relative;
+
+		img {
+			border-radius: 1.5rem;
+			border-bottom-right-radius: 0;
+			width: 100%;
+		}
+
+		> a:nth-of-type(2) {
+			opacity: 0;
+			position: absolute;
+			z-index: -1;
+			top: 0;
+			left: 0;
+			@include transition(all 0.3s ease-in-out);
+		}
+	}
+
+	.service-btn {
+		a {
+			color: #f4f3f7	;
+			font-size: 1rem;
+			text-decoration: none;
+			font-family: $body-font;
+			border-top-left-radius: 1.5rem;
+			border-bottom-right-radius: 1.5rem;
+			font-weight: 300;
+
+			@include media-breakpoint-down(sm) {
+				padding: 1rem 2rem;
+			}
+		}
+	}
+
+	.service-details {
+		padding-top: 1rem;
+		margin-top: -1rem;
+		background-color: #f4f2ff;
+		border-bottom-left-radius: 1.5rem;
+		border-bottom-right-radius: 1.5rem;
+
+		.service-title {
+			font-size: 1.25rem;
+			color: $secondary;
+			font-weight: 500;
+			font-family: $heading-font;
+
+			@include media-breakpoint-down(sm) {
+				font-size: 1rem;
+			}
+		}
+	}
+
+	&:hover {
+		.service-image {
+			> a:nth-of-type(2) {
+				z-index: 1;
+				opacity: 1;
+			}
+		}
+	}
+}
+
+

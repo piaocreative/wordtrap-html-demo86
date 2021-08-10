@@ -1,0 +1,69 @@
+
+/* ----------------------------------------------------------------
+
+	blog.scss
+
+-----------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+	Blog
+-----------------------------------------------------------------*/
+
+.post {
+	position: relative;
+
+	@include media-breakpoint-down(lg) {
+		margin: 0 !important;
+	}
+}
+
+.post-thumbnail {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: auto;
+
+	img {
+		border-radius: 1rem;
+		width: 100%;
+	}
+
+	a {
+		display: block;
+	}
+}
+
+.post-content {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	padding: 1.5rem 2rem;
+	margin: 1rem;
+	background-color: white;
+	border-radius: 1rem;
+
+
+	.entry-title {
+		font-size: 1.2rem;
+		color: $secondary;
+		font-family: $heading-font;
+	}
+
+	.entry-categories {
+		a {
+			color: #bfbfbf;
+			font-size: 1rem;
+			font-family: $body-font;
+			text-decoration: none;
+		}
+	}
+
+	@include media-breakpoint-down(sm) {
+		padding: 0.5rem 1rem;
+
+		.entry-title {
+			font-size: 0.875rem;
+		}
+	}
+}

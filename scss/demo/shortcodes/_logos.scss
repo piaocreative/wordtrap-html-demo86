@@ -1,0 +1,27 @@
+.logos {
+	display: flex;
+	justify-content: space-between;
+
+	.logo-item {
+		border: 1px solid #eaeaea;
+		border-radius: .3125rem;
+		max-width: 12.25rem;
+		height: 8.25rem;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		background-color: white;
+		justify-content: center;
+		border-radius: 2rem;
+
+		img {
+			width: auto;
+			height: auto;
+		}
+
+		@include media-breakpoint-down(sm) {
+			margin-left: 0.5rem;
+			margin-right: 0.5rem;
+		}
+	}
+} 

@@ -1,0 +1,165 @@
+
+/* ----------------------------------------------------------------
+
+	extras.scss
+
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Extra Styles
+-----------------------------------------------------------------*/
+
+.shipping-banner {
+	position: absolute;
+	left: 4.375rem;
+	top: 5.625rem;	
+}
+
+.link-icon {
+	background-image: url(../images/icons/link.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 2.5625rem;
+	height: 2.5625rem;
+
+	&.black {
+		background-image: url(../images/icons/link_black.png);
+	}
+}
+
+a {
+	.link-icon {
+		@include transition(all 0.3s ease-in-out);
+	}
+
+	&:hover {
+		.link-icon {
+			@include translateX(1rem);
+		}
+	}	
+}
+
+
+.feedback {
+	input {
+		color: $body-color;
+		background-color: $third-color;
+		border: none;
+		border-top-left-radius: 0.5rem !important;
+		border-bottom-left-radius: 0.5rem !important;
+		&::placeholder {
+			color: #747474 !important;
+		}
+	}
+
+	button {
+		background-color: $third-color;
+		
+		i {
+			font-size: 1.25rem;
+			line-height: 1.5rem;
+		}
+	}
+}
+
+.testimonials-detail {
+	@include media-breakpoint-down(lg) {
+		padding: 1rem !important;
+	}
+}
+
+.contact {
+	.contact-email {
+		font-size: 2.25rem;
+		font-family: $heading-font;
+		font-weight: 400;
+		color: $primary;
+		line-height: 4rem;
+		margin-bottom: 0;
+	}
+
+	.contact-title {
+		font-size: $h1-font-size;
+		font-family: $body-font;
+		font-weight: 800;
+		color: $secondary;
+		line-height: 4rem;
+	}
+
+	.contact-icons {
+		&.dark-contact a {
+			color: white;
+			font-size: 0.7rem;
+		}
+
+		&.light-contact a {
+			color: $secondary;
+			font-size: 0.875rem;
+		}
+
+		li {
+
+			list-style: none;
+			margin-bottom: 0.3rem;
+
+			a {
+				font-family: $body-font;
+				line-height: 2rem;
+				
+				&:hover {
+					color: $primary;
+				}
+
+				.contact-icon {
+					color: $white;
+					display: inline-block;
+					margin-right: 1.2rem;
+					font-size: 1.2rem;
+					width: 1.8rem;
+					text-align: center;
+				}
+			}
+		}
+	}
+}
+
+
+.about-content {
+
+	h3 {
+		font-size: 2.25rem;
+	}
+
+	p {
+		font-size: 0.9325rem;
+		color: #9c9c9f;
+		line-height: 1.5rem;
+	}
+}
+
+.carousel-indicator {
+	margin-top: 7rem;
+
+	li {
+		list-style: none;
+		border-top: 8px solid $theme-color;
+		width: 3rem;
+		padding: 0rem;
+		border-radius: 2rem;
+	}
+
+	@include media-breakpoint-down(sm) {
+		margin-top: 2rem;
+	}
+}
+
+.sale-banner {
+	padding: 5.5rem 0 2rem;
+    margin-top: -2.5rem;
+
+	p {
+		color: #d5cffb;
+	}
+}
