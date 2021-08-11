@@ -268,7 +268,10 @@
 
 .testimonials {
 	h1 {
-		margin-top: -5rem;
+		margin-top: -4rem;
+		font-size: 3rem;
+		letter-spacing: 0.3rem;
+		margin-bottom: 1.5rem;
 
 		@include media-breakpoint-down(sm) {
 			margin-top: -3rem;
@@ -295,7 +298,7 @@
 		p {
 			font-size: 1.0625rem;
 			color: $secondary;
-			line-height: 1.5rem;
+			line-height: 1.8rem;
 		}
 	
 		.testimonials-rating {

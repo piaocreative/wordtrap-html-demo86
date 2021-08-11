@@ -26,6 +26,7 @@
 		font-family: $heading-font;
 		font-weight: 500;
 		font-size: 6rem;
+		line-height: 7rem;
 
 		@include media-breakpoint-down(lg) {
 			margin-bottom: 1rem !important;
@@ -43,7 +44,7 @@
 
 	p {
 		font-size: 0.875rem;
-		line-height: 2rem;
+		line-height: 1.8rem;
 		color: #b5b5b8;
 
 		@include media-breakpoint-down(lg) {
