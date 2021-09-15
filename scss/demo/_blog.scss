@@ -11,10 +11,7 @@
 
 .post {
 	position: relative;
-
-	@include media-breakpoint-down(lg) {
-		margin: 0 !important;
-	}
+	margin-bottom: 0.875rem;
 }
 
 .post-thumbnail {

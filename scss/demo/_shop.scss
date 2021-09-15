@@ -189,7 +189,6 @@
 
 /* Ads
 -----------------------------------------------------------------*/
-
 .ads {
     position: relative;
     display: block;
@@ -211,7 +210,6 @@
 	}
 
 	&.ads1 {
-
 		.ads-body {
 			position: absolute;
 			left: 0;
@@ -238,7 +236,7 @@
 			}
 		}
 
-		@include media-breakpoint-down(sm) {
+		@include media-breakpoint-down(lg) {
 			padding: 0 !important;
 
 			.ads-bg {
@@ -246,7 +244,9 @@
 					border-radius: 0 !important;
 				}
 			}
+		}
 
+		@include media-breakpoint-down(sm) {
 			h2 {
 				font-size: 4rem !important;
 				margin: 0 !important;

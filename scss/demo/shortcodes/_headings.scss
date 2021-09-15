@@ -33,7 +33,7 @@
 	p {
 		font-size: 1.0625rem;
 		color: $secondary;
-		line-height: 1.7rem;
+		line-height: 1.65;
 
 		@include media-breakpoint-down(sm) {
 			margin-top: 0 !important;

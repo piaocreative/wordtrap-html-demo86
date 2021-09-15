@@ -43,8 +43,8 @@
 			font-size: 1rem;
 			text-decoration: none;
 			font-family: $body-font;
-			border-top-left-radius: 1.5rem;
-			border-bottom-right-radius: 1.5rem;
+			border-bottom-left-radius: 0;
+			border-top-right-radius: 0;
 			font-weight: 300;
 
 			@include media-breakpoint-down(sm) {
