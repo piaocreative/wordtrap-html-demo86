@@ -16,28 +16,22 @@
 
 #footer {
 	background-color: #1d1d1d;
-
-	hr {
-		background-color: #5c5b59;
-		margin: 2.5rem 0;
-	}
+	color: #686868;
+	padding-top: 2.8125rem;
+	padding-bottom: 2.8125rem;
 
 	a {
-		text-decoration: none !important;
+		color: #686868;
 	}
 }
 
 #footer-main {
-	padding-top: 3rem;
 	font-size: 0.685rem;
-	padding-bottom: 3rem;
 }
 
-
-#copyrights {
-	color: #6b5a5a;
-	font-weight: 400;	
-	line-height: 2;
-	z-index: 1;	
+#copyrights {			
 	font-size: 0.875rem;
+	
+	line-height: 2;	
+	z-index: 1;	
 }

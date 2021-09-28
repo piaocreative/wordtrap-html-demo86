@@ -51,17 +51,13 @@ img {
 	padding-top: $section-spacer;
 	padding-bottom: $section-spacer;
 	position: relative;
-	
-	@include media-breakpoint-down(lg) {
-		padding-top: 2rem;
-		padding-bottom: 1rem;
-	}
 }
 
 .section-padding-top { padding-top: $section-spacer; }
 .section-padding-bottom { padding-bottom: $section-spacer; }
 .section-margin-top { margin-top: $section-spacer; }
 .section-margin-bottom { margin-bottom: $section-spacer; }
+
 
 /* ----------------------------------------------------------------
 	Position

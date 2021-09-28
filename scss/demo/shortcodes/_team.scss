@@ -23,11 +23,12 @@
 
         .member {
             margin-left: -1rem;
+            width: 6.5rem;
+            height: 6.5rem;
         }
     }
 
     .team-details {
-
         .team-skill {
             font-size: 0.875rem;
             color: #8d8d90;
@@ -40,7 +41,6 @@
         }
 
         p {
-            font-size: 1.0625rem;
             color: $secondary;
         }
     
@@ -50,11 +50,6 @@
                 font-size: 0.75rem;
                 padding-right: 0.3rem;
             }
-        }
-
-        .sign-up-link {
-            color: #bdb4ce;
-            font-size: 1rem;
         }
     }
 }

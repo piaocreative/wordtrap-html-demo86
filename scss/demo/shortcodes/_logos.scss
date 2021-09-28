@@ -3,26 +3,16 @@
 	justify-content: space-between;
 
 	.logo-item {
-		border: 1px solid #eaeaea;
-		border-radius: .3125rem;
+		border: 1px solid #f4f2ff;
+		border-radius: 1.25rem;
 		max-width: 12.25rem;
-		height: 8.25rem;
-		width: 100%;
-		display: flex;
-		align-items: center;
-		background-color: white;
-		justify-content: center;
-		border-radius: 2rem;
+		height: 7.75rem;
+		width: 100%;						
 		margin: auto;
+		padding: 1.25rem 0;
 
 		img {
-			width: auto;
-			height: auto;
-		}
-
-		@include media-breakpoint-down(sm) {
-			margin-left: 0.5rem;
-			margin-right: 0.5rem;
+			height: 100%;
 		}
 	}
 } 

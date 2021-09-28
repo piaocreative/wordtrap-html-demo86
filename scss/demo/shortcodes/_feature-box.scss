@@ -10,7 +10,6 @@
 -----------------------------------------------------------------*/
 
 .fbox {	
-	flex: 1;
 	position: relative;
 	margin-bottom: 1.875rem;
 
@@ -20,5 +19,10 @@
 
 	.fbox-icon {
 		margin-bottom: 1.375rem;
+	}
+
+	p {
+		color: #d5cffb;
+		line-height: 1.65;		
 	}
 }

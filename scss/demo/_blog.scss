@@ -11,7 +11,7 @@
 
 .post {
 	position: relative;
-	margin-bottom: 0.875rem;
+	margin-bottom: 1.875rem;
 }
 
 .post-thumbnail {
@@ -47,20 +47,12 @@
 		font-family: $heading-font;
 	}
 
-	.entry-categories {
+	.entry-meta {
 		a {
 			color: #bfbfbf;
 			font-size: 1rem;
 			font-family: $body-font;
 			text-decoration: none;
-		}
-	}
-
-	@include media-breakpoint-down(sm) {
-		padding: 0.5rem 1rem;
-
-		.entry-title {
-			font-size: 0.875rem;
 		}
 	}
 }
